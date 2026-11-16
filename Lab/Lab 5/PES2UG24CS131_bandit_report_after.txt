@@ -1,0 +1,27 @@
+Name: Chetan
+SRN: PES2UG24CS131
+SECTION C
+SE LAB SUBMISSION 14/10/26
+
+Bandit report — AFTER FIX
+Source: updated helpdesk_system.py
+
+Findings visible in the provided screenshots:
+1. B404:blacklist — subprocess module imported
+   Severity: Low; Confidence: High
+   Location shown: helpdesk_system.py:6:0
+
+2. B607:start_process_with_partial_path — starting a process with a partial executable path
+   Severity: Low; Confidence: High
+   Location shown: helpdesk_system.py:83:11
+
+3. B603:subprocess_without_shell_equals_true — subprocess call; check for execution of untrusted input
+   Severity: Low; Confidence: High
+
+Summary visible in screenshot:
+Lines of code scanned: 99
+Issues by severity: Low 3, Medium 0, High 0
+Issues by confidence: Low 0, Medium 0, High 3
+
+This is the output shown before the later proposed change to resolve the executable path.
+Rerun Bandit against the exact final file to obtain the final report.

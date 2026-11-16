@@ -1,0 +1,17 @@
+Name: Chetan
+SRN: PES2UG24CS131
+SECTION C
+SE LAB SUBMISSION 14/10/26
+
+Pylint report — AFTER FIX
+Source: updated helpdesk_system.py
+
+Your code has been rated at 9.58/10 (previous run: 5.53/10, +4.05).
+
+Warnings visible in the provided screenshot:
+helpdesk_system.py:11:0: C0103: Constant name "ticket_counter" doesn't conform to UPPER_CASE naming style (invalid-name)
+helpdesk_system.py:16:4: W0603: Using the global statement (global-statement)
+helpdesk_system.py:102:4: W0603: Using the global statement (global-statement)
+
+This is the result shown in the screenshot before the subsequent edits. Rerun Pylint
+against the exact final file to obtain the final report.

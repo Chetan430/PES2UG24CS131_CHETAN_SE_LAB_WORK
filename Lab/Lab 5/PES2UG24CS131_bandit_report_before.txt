@@ -1,0 +1,34 @@
+Name: Chetan
+SRN: PES2UG24CS131
+SECTION C
+SE LAB SUBMISSION 14/10/26
+
+Bandit report — BEFORE FIX
+Source: helpdesk_system.py (original starter code)
+Python version shown: 3.9.13
+
+Findings visible in the provided screenshots:
+
+1. B404:blacklist — subprocess module imported
+   Severity: Low; Confidence: High
+   Location: helpdesk_system.py:2:0
+
+2. B105:hardcoded_password_string — possible hardcoded password 'helpdesk@123'
+   Severity: Low; Confidence: Medium
+   Location: helpdesk_system.py:8:17
+
+3. B110:try_except_pass — try/except/pass detected
+   Severity: Low; Confidence: High
+   Location: helpdesk_system.py:23:4
+
+4. B602:subprocess_popen_with_shell_equals_true — subprocess call with shell=True
+   Severity: High; Confidence: High
+   Location: helpdesk_system.py:38:11
+
+Summary visible in screenshot:
+Lines of code scanned: 47
+Issues by severity: Low 3, Medium 0, High 1
+Issues by confidence: Low 0, Medium 1, High 3
+
+This report preserves the findings visible in the screenshots; it is not a complete
+raw Bandit output. Rerun locally for the full report.

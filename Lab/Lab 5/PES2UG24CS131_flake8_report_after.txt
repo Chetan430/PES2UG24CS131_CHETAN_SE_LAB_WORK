@@ -1,0 +1,14 @@
+Name: Chetan
+SRN: PES2UG24CS131
+SECTION C
+SE LAB SUBMISSION 14/10/26
+
+Flake8 report — AFTER FIX
+Source: updated helpdesk_system.py
+
+Findings visible in the provided screenshot:
+helpdesk_system.py:61:80: E501 line too long (83 > 79 characters)
+helpdesk_system.py:113:80: E501 line too long (80 > 79 characters)
+
+These were the two issues shown before the later line-wrapping edits. Rerun Flake8
+against the exact final file to verify whether they are resolved.

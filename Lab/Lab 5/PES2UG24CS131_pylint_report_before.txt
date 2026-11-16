@@ -1,0 +1,13 @@
+Name: Chetan
+SRN: PES2UG24CS131
+SECTION C
+SE LAB SUBMISSION 14/10/26
+
+Pylint report — BEFORE FIX
+Source: helpdesk_system.py (original starter code)
+
+Your code has been rated at 5.53/10.
+
+Note: The screenshot provided confirms the score but does not show the complete
+Pylint diagnostic list. Rerun locally to produce the full authentic report:
+python -m pylint helpdesk_system.py
